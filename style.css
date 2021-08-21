@@ -1,12 +1,97 @@
-body {
-    background:green;
-    opacity: 0.5;
+
+
+body
+{
+position: relative;
+z-index; 2;
+display: block;
+background-color: rgba(200,75,40,0.75);
+opacity: 0.75;
+
 }
+/* 
+.container-basic 
+{
+max-width: 1600px;
+margin:top:0px;
+margin-bottom;0px;
+padding-bottom:0px;
+clear: none;
+}
+ */
+
+.text-span-1
+{background-image: url(software-development.png);
+background-position: 50% 50%;
+background-size: 45px;
+background-repeat: no-repeat;
+color: transparent;
+}
+
+
+
 
 h1
 {
-    text-align: center;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 28px;
+    font-family: sans-serif;
 }
 
+.header-container
+{
+    position: relative; 
+    width: 1200px;
+    height:60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:cadetblue;
+}
+
+
+.title
+{
+    position: relative;
+    font-family:sans-serif;
+    color: #ffffff;
+    font-size:28px;
+    margin-bottom: 20px;
+
+}
+
+
+/* #Bio
+{
+    text-align:center;
+    font-size: 16px;
+    
+
+}
+
+.social-icon 
+{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    margin-right:8px;
+    display: inline-block;
+}
+
+.icon-last
+{
+    margin-right:0px;
+}
+
+.icon-gmail
+{
+background-image: url(/prework-project/Google-logo-design-isolated-illustration-premium-vector-PNG.png);
+
+
+}
+
+.icon-linkedin
+{
+    <i class="fab fa-linkedin"></i>
+
+
+} */
