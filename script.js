@@ -1,5 +1,5 @@
 const h3 = document.createElement('h3');
-h3.textContent = "Press the number of which one of the following is a lie";
+h3.textContent = "Press the number of which one of the following that is a lie";
 
 document.querySelector('body').appendChild(h3);
 
