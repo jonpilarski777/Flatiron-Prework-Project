@@ -1,69 +1,69 @@
-*
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+.Bio
 {
-    -webkit-text-size-adjust: none;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    border: 0;
-    box-sizing: border-box;
-    font-size: 100%;
-    line-height: 100%;
-    margin: 0px;
-    outline: 0px;
-    padding: 10px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    text-align: justify;
+    right:20%;
+    top: 30%;
+    font-size:20pt;
+    padding-top: 0pt;
+
 }
 
-.space{
-    max-width: 1024px;
-    width: 100%;
-}
-
-.container{
- position:relative;
-}
-
-.heading {
-    color: #000;
-    line-height: 35px;
-    font-style: normal;
-    text-decoration: none;
-    font-size: 24pt;
-}
+    
 
 body
 {
-background-image: linear-gradient(rgb(8, 202, 250),rgba(255,255,255,1));
+
+background: linear-gradient(rgba(96,181,230,1),rgba(255,255,255,1));
 background-repeat: no-repeat;
-background-color: transparent;
-opacity: 1;
 }
 
-.text-span-1 {
+.text-span-1
+{background-image: url(software-development.png);
 background-position: 50% 50%;
 background-size: 45px;
 background-repeat: no-repeat;
 color: transparent;
-padding-left: 25px;
-padding-right:35px;
-font-size: 60%;
-} 
-
-.main-header
-{
-    position:absolute;
-    top: 8px;
-    left:16px;
-    display:block;
-    text-align: center;
+padding-left: 30px;
+padding-right: 30px;
 }
 
-.Contact
+
+
+.header-container
 {
-    position: absolute;
-    bottom: 35px;
-    right:50%;
-    text-align:center;
-    font-size:18px;
+    position: relative; 
+    max-width: 1900px;
+    height:60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 25pt;
+    
+}
+
+
+section#Contact
+{
+    position:absolute;
+    font-size: 20pt;
+    top: 18px;
+    right: 16px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 

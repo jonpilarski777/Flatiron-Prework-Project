@@ -1,4 +1,4 @@
-const h2 = document.createElement('h2');
-h2.textContent = "Software is Eating the World";
+const h3 = document.createElement('h3');
+h3.textContent = "Software is Eating the World";
 
-document.querySelector('body').appendChild(h2);
+document.querySelector('body').appendChild(h3);
