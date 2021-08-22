@@ -22,7 +22,14 @@ html {
 
 }
 
-    
+
+h3 {
+    position:absolute;
+    right:30%;
+    bottom: 20%;
+
+}
+
 
 body
 {
@@ -32,9 +39,9 @@ background-repeat: no-repeat;
 }
 
 .text-span-1
-{background-image: url(software-development.png);
+{background-image: url(headshot.jpg);
 background-position: 50% 50%;
-background-size: 45px;
+background-size: 100px;
 background-repeat: no-repeat;
 color: transparent;
 padding-left: 30px;
