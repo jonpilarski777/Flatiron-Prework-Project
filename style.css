@@ -30,6 +30,14 @@ h3 {
 
 }
 
+section#trivia
+{
+    position:absolute;
+    right: 20%;
+    bottom: 11%;
+}
+
+
 
 body
 {
