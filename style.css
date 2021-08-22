@@ -1,97 +1,69 @@
+*
+{
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 100%;
+    margin: 0px;
+    outline: 0px;
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+.space{
+    max-width: 1024px;
+    width: 100%;
+}
+
+.container{
+ position:relative;
+}
+
+.heading {
+    color: #000;
+    line-height: 35px;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 24pt;
+}
 
 body
 {
-position: relative;
-z-index; 2;
-display: block;
-background-color: rgba(200,75,40,0.75);
-opacity: 0.75;
-
+background-image: linear-gradient(rgb(8, 202, 250),rgba(255,255,255,1));
+background-repeat: no-repeat;
+background-color: transparent;
+opacity: 1;
 }
-/* 
-.container-basic 
-{
-max-width: 1600px;
-margin:top:0px;
-margin-bottom;0px;
-padding-bottom:0px;
-clear: none;
-}
- */
 
-.text-span-1
-{background-image: url(software-development.png);
+.text-span-1 {
 background-position: 50% 50%;
 background-size: 45px;
 background-repeat: no-repeat;
 color: transparent;
+padding-left: 25px;
+padding-right:35px;
+font-size: 60%;
+} 
+
+.main-header
+{
+    position:absolute;
+    top: 8px;
+    left:16px;
+    display:block;
+    text-align: center;
 }
 
-
-
-
-h1
+.Contact
 {
-    text-align: left;
-    font-size: 28px;
-    font-family: sans-serif;
-}
-
-.header-container
-{
-    position: relative; 
-    width: 1200px;
-    height:60px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color:cadetblue;
-}
-
-
-.title
-{
-    position: relative;
-    font-family:sans-serif;
-    color: #ffffff;
-    font-size:28px;
-    margin-bottom: 20px;
-
-}
-
-
-/* #Bio
-{
+    position: absolute;
+    bottom: 35px;
+    right:50%;
     text-align:center;
-    font-size: 16px;
-    
-
+    font-size:18px;
 }
 
-.social-icon 
-{
-    position: relative;
-    width: 36px;
-    height: 36px;
-    margin-right:8px;
-    display: inline-block;
-}
-
-.icon-last
-{
-    margin-right:0px;
-}
-
-.icon-gmail
-{
-background-image: url(/prework-project/Google-logo-design-isolated-illustration-premium-vector-PNG.png);
-
-
-}
-
-.icon-linkedin
-{
-    <i class="fab fa-linkedin"></i>
-
-
-} */
